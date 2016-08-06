@@ -1,0 +1,30 @@
+#boxContainer{
+	margin:0 auto;
+	padding:40px 0px;
+	width:100px;
+	border-radius:0px;
+	text-align:center;
+	background:#2db249;
+	color:#fff;
+
+	cursor:pointer;
+
+	-webkit-transition-property: border-radius, background;
+	-webkit-transition-duration:5s;
+	-webkit-transition-delay:0s;
+
+	-moz-transition-property: border-radius, background;
+	-moz-transition-duration:5s;
+	-moz-transition-delay:0s;
+
+	transition-property: border-radius, background;
+	transition-duration:5s;
+	transition-delay:0s;
+	
+}
+
+
+#boxContainer:hover{
+	border-radius:50px;
+	background:#ff7b28;
+}
